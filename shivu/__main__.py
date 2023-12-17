@@ -8,7 +8,7 @@ from html import escape
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 from telegram import Update
-from telegram.ext import CommandHandler, CallbackContext,CallbackQueryaHndler, MessageHandler, filters
+from telegram.ext import CommandHandler, CallbackContext,CallbackQueryaHandler, MessageHandler, filters
 
 from shivu import collection, top_global_groups_collection, group_user_totals_collection, user_collection, user_totals_collection, shivuu
 from shivu import application, PHOTO_URL, SUPPORT_CHAT, UPDATE_CHAT, BOT_USERNAME, db, GROUP_ID, LOGGER
@@ -339,7 +339,7 @@ def main() -> None:
     application.add_handler(CommandHandler(["guess", "protecc", "collect", "grab", "hunt"], guess, block=False))
     application.add_handler(CommandHandler("fav", fav, block=False))
     application.add_handler(MessageHandler(filters.ALL, message_counter, block=False))
-    application.add_handler(CallbackQueryaHndler(button, pattern='^help$|^back$', block=False))
+    application.add_handler(CallbackQueryaHandler(button, pattern='^help$|^back$', block=False))
     start_handler = CommandHandler('start', start, block=False)
     application.add_handler(start_handler)
 
