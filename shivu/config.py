@@ -23,7 +23,7 @@ else:
     OWNER_ID = 5443243540
     sudo_users = ["5715764478", "5690711835", "6765826972"]
     GROUP_ID = -1001931513350
-    mongo_url = "mongodb+srv://HaremDB:ThisIsPasswordForHaremDB@haremdb.swzjngj.mongodb.net/?retryWrites=true&w=majority"    
+    mongo_url = "mongodb+srv://kora3244:jNtUZleBWM71f1pC@haremdb.qxtdvdh.mongodb.net/?retryWrites=true&w=majority"    
     TOKEN = "6970532785:AAHt-X1qhAhTpN2R942BrX44Koa9a1ilWaU"
     PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
     SUPPORT_CHAT = "The_Catch_Squad"
