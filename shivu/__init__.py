@@ -30,7 +30,7 @@ BOT_USERNAME = BOT_USERNAME
 CHARA_CHANNEL_ID = CHARA_CHANNEL_ID
 api_id = api_id
 api_hash = api_hash
-
+mongo_url = "mongodb+srv://HaremDB:ThisIsPasswordForHaremDB@haremdb.swzjngj.mongodb.net/?retryWrites=true&w=majority"
 
 application = Application.builder().token(TOKEN).build()
 shivuu = Client("Shivu", api_id, api_hash, bot_token=TOKEN)
