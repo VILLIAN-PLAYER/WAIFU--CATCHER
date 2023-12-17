@@ -24,7 +24,6 @@ else:
     sudo_users = ["5715764478", "5690711835", "6765826972"]
     GROUP_ID = -1001931513350
     TOKEN = "6970532785:AAHt-X1qhAhTpN2R942BrX44Koa9a1ilWaU"
-    mongo_url = "mongodb+srv://HaremDB:ThisIsPasswordForHaremDB@haremdb.swzjngj.mongodb.net/?retryWrites=true&w=majority"
     PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
     SUPPORT_CHAT = "The_Catch_Squad"
     UPDATE_CHAT = "botupdatex"
