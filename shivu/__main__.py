@@ -9,8 +9,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 from telegram import Update
 from telegram.ext import CommandHandler, CallbackContext,CallbackQueryHandler, MessageHandler, filters
-
-from shivu import collection, top_global_groups_collection, group_user_totals_collection, user_collection, user_totals_collection, shivuu
+from shivu import db, collection, top_global_groups_collection, group_user_totals_collection, user_collection, user_totals_collection
+from shivu import shivuu
 from shivu import application, PHOTO_URL, SUPPORT_CHAT, UPDATE_CHAT, BOT_USERNAME, db, GROUP_ID, LOGGER
 from shivu import pm_users as collection 
 from shivu.modules import ALL_MODULES
