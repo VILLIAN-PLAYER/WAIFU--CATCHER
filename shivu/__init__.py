@@ -30,15 +30,14 @@ BOT_USERNAME = BOT_USERNAME
 CHARA_CHANNEL_ID = CHARA_CHANNEL_ID
 api_id = api_id
 api_hash = api_hash
-mongo_url = "mongodb+srv://HaremDB:ThisIsPasswordForHaremDB@haremdb.swzjngj.mongodb.net/?retryWrites=true&w=majority"
 
 application = Application.builder().token(TOKEN).build()
 shivuu = Client("Shivu", api_id, api_hash, bot_token=TOKEN)
 client = AsyncIOMotorClient(mongo_url)
 db = client['Character_catcher']
-collection = db['anime_characters']
-user_totals_collection = db['user_totals']
-user_collection = db["user_collection"]
-group_user_totals_collection = db['group_user_total']
+collection = db['anime_characters_lol']
+user_totals_collection = db['user_totals_lmaoooo']
+user_collection = db["user_collection_lmaoooo"]
+group_user_totals_collection = db['group_user_totalsssssss']
 top_global_groups_collection = db['top_global_groups']
 pm_users = db['total_pm_users']
