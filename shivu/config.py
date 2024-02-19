@@ -4,31 +4,31 @@ from dotenv import load_dotenv
 env = load_dotenv("config.env")
 
 if env:
-    OWNER_ID = os.environ.get("OWNER_ID")
-    sudo_users = list(map(int, os.environ.get("sudo_users", "").split()))
-    GROUP_ID = os.environ.get("GROUP_ID")
-    TOKEN = os.environ.get("TOKEN")
-    mongo_url = os.environ.get("MONGODB_URL")
-    if os.environ.get("PHOTO_URL") != None:
-        PHOTO_URL = os.environ.get("PHOTO_URL") 
+    OWNER_ID = os.environ.get("1813373023")
+    sudo_users = list(map(int, os.environ.get("1813373023", "").split()))
+    GROUP_ID = os.environ.get("-1002103727164")
+    TOKEN = os.environ.get("7191385539:AAHwhpupUBixxB7wehd5PR2NWaUawVz9l3A")
+    mongo_url = os.environ.get("mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
+    if os.environ.get("https://telegra.ph/file/a0a18f4619fed4b45ea01.jpg") != None:
+        PHOTO_URL = os.environ.get("https://telegra.ph/file/a0a18f4619fed4b45ea01.jpg") 
     else:
         PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT")
-    UPDATE_CHAT = os.environ.get("UPDATE_CHAT")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    CHARA_CHANNEL_ID = os.environ.get("CHARA_CHANNEL_ID")
-    api_id = os.environ.get("api_id")
-    api_hash = os.environ.get("api_hash")
+    SUPPORT_CHAT = os.environ.get("FallenXDeveloper")
+    UPDATE_CHAT = os.environ.get("FallenXDeveloper")
+    BOT_USERNAME = os.environ.get("Keqing_WaifuBot")
+    CHARA_CHANNEL_ID = os.environ.get("-1002064277119")
+    api_id = os.environ.get("21846639")
+    api_hash = os.environ.get("2cebc99bd8378b5237b31ea8e7496d79")
 else:
-    OWNER_ID = 5443243540
-    sudo_users = ["5715764478", "5690711835", "6765826972"]
-    GROUP_ID = -1001931513350
-    mongo_url = "mongodb+srv://kora3244:jNtUZleBWM71f1pC@haremdb.qxtdvdh.mongodb.net/?retryWrites=true&w=majority"    
-    TOKEN = "6970532785:AAHt-X1qhAhTpN2R942BrX44Koa9a1ilWaU"
-    PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
-    SUPPORT_CHAT = "The_Catch_Squad"
-    UPDATE_CHAT = "botupdatex"
-    BOT_USERNAME = "CatchEmWaifuBot"
+    OWNER_ID = 1813373023
+    sudo_users = ["1813373023"]
+    GROUP_ID = -1002103727164
+    mongo_url = "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"    
+    TOKEN = "7191385539:AAHwhpupUBixxB7wehd5PR2NWaUawVz9l3A"
+    PHOTO_URL = ["https://telegra.ph/file/a0a18f4619fed4b45ea01.jpg", "https://telegra.ph/file/a0a18f4619fed4b45ea01.jpg"]
+    SUPPORT_CHAT = "FallenXDeveloper"
+    UPDATE_CHAT = "FallenXDeveloper"
+    BOT_USERNAME = "Keqing_WaifuBot"
     CHARA_CHANNEL_ID = -1002064277119
-    api_id = 28122413
-    api_hash = "750432c8e1b221f91fd2c93a92710093"
+    api_id = 21846639
+    api_hash = "2cebc99bd8378b5237b31ea8e7496d79"
