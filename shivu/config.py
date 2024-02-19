@@ -16,7 +16,7 @@ if env:
     SUPPORT_CHAT = os.environ.get("FallenXDeveloper")
     UPDATE_CHAT = os.environ.get("FallenXDeveloper")
     BOT_USERNAME = os.environ.get("Keqing_WaifuBot")
-    CHARA_CHANNEL_ID = os.environ.get("-1002064277119")
+    CHARA_CHANNEL_ID = os.environ.get("-1002074617147")
     api_id = os.environ.get("21846639")
     api_hash = os.environ.get("2cebc99bd8378b5237b31ea8e7496d79")
 else:
@@ -29,6 +29,6 @@ else:
     SUPPORT_CHAT = "FallenXDeveloper"
     UPDATE_CHAT = "FallenXDeveloper"
     BOT_USERNAME = "Keqing_WaifuBot"
-    CHARA_CHANNEL_ID = -1002064277119
+    CHARA_CHANNEL_ID = -1002074617147
     api_id = 21846639
     api_hash = "2cebc99bd8378b5237b31ea8e7496d79"
