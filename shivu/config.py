@@ -30,5 +30,5 @@ else:
     UPDATE_CHAT = "FallenXDeveloper"
     BOT_USERNAME = "Keqing_WaifuBot"
     CHARA_CHANNEL_ID = -1002074617147
-    api_id = 21846639q
+    api_id = 21846639
     api_hash = "2cebc99bd8378b5237b31ea8e7496d79"
