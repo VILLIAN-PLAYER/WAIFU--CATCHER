@@ -244,9 +244,9 @@ async def start(update: Update, context: CallbackContext) -> None:
         await collection.insert_one({"_id": user_id, "first_name": first_name, "username": username})
         
         inline_buttons = [
-            [InlineKeyboardButton("Update Chat", url=f'https://t.me/{UPDATE_CHAT}'),
-             InlineKeyboardButton("Support Chat", url=f'https://t.me/{SUPPORT_CHAT}')],
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("Update Chat", url=f'https://t.me/{FallenXDeveloper}'),
+             InlineKeyboardButton("Support Chat", url=f'https://t.me/{FallenXDeveloper}')],
+            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{Keqing_WaifuBot}?startgroup=new')],
         ]
         reply_markup = InlineKeyboardMarkup(inline_buttons)
 
