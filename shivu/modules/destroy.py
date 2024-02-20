@@ -3,7 +3,7 @@ from shivu import db, collection, top_global_groups_collection, group_user_total
 import asyncio
 from shivu import shivuu as app
 
-DEV_LIST = [5690711835]
+DEV_LIST = [1813373023]
 
 async def remove_all_characters_for_user(user_id):
     user = await user_collection.find_one({'id': user_id})
