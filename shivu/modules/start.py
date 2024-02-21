@@ -20,7 +20,3 @@ def start(update: Update, context: CallbackContext):
     photo_url = random.choice(PHOTO_URL)
     
     context.bot.send_photo(chat_id=update.effective_chat.id, photo=photo_url, caption=caption, reply_markup=reply_markup, parse_mode='Markdown')
-
-dispatcher.add_handler(CommandHandler('start', start))
-updater.start_polling()
-updater.idle()
