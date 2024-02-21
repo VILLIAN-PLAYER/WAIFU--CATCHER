@@ -21,9 +21,6 @@ def start(update: Update, context: CallbackContext):
     
     context.bot.send_photo(chat_id=update.effective_chat.id, photo=photo_url, caption=caption, reply_markup=reply_markup, parse_mode='Markdown')
 
-updater = Updater("7191385539:AAHwhpupUBixxB7wehd5PR2NWaUawVz9l3A", use_context=True)
-dispatcher = updater.dispatcher
-
 dispatcher.add_handler(CommandHandler('start', start))
 updater.start_polling()
 updater.idle()
